@@ -4343,6 +4343,8 @@ label monika_confidence_2:
     m "Your everlasting love and care is just about all the support I need in order get to where I want to be."
     m "What kind of girlfriend would I be if I didn't return the favor~?"
     return
+    
+    
 
 ##################
 #Incomplete ideas#
