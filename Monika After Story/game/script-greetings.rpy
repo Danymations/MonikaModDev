@@ -291,3 +291,20 @@ label greeting_surprised:
      m "Sorry, you surprised me there a little."
      m "How have you been?"
      return
+
+
+label greeting_love:
+     m "Welcome back, my love~"
+         menu:
+           m "Are you feeling okay?"
+           "Yes."
+                m 1k  "Yay!"
+                m 5a "I'm glad."
+                m "I'll always be here for you if you aren't feeling well."
+                m 1j "Ehehe~"
+           "No."
+                m 1f "Aww..it'll be okay."
+                m 1e "I'll be here for you, always."
+                m 1a "I love you so so much, [player]."
+                m 1j "You mean very much to me and you always will."
+                return
