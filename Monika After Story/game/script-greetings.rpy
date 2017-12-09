@@ -308,3 +308,15 @@ label greeting_love:
                 m 1a "I love you so so much, [player]."
                 m 1j "You mean very much to me and you always will."
                 return
+
+label greeting_spanish:
+     m "Hola, mi sol."
+     m "Todo va bien?"
+     m "Ehe...I said 'Hello, my sunshine. Is everything going okay?'"
+     m "My spanish still isn't the best!"
+         menu:
+            m "Do you know spanish?"
+            "Yes."
+                m "Great! Maybe you can teach me how to say more?"
+            "No."
+                m "Aw, that's okay! We can learn together."
