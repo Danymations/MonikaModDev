@@ -4344,6 +4344,31 @@ label monika_confidence_2:
     m "What kind of girlfriend would I be if I didn't return the favor~?"
     return
 
+init 5 python:
+    for key in ['real_world','world','irl','in_real_life','real']:
+        monika_topics.setdefault(key,[])
+        monika_topics[key].append('monika_real_world')
+    monika_random_topics.append('monika_real_world')
+
+label monika_real_world:
+    m 3a "I have always wanted to talk to you about this."
+    m 5a "If I could ever cross from here to the real world."
+    m 5a"I'm just happy thinking about it."
+    m 5a "It's a huge dream."
+    m 4e "Just the thought of me being able to be there with you, all the time."
+    m 4e "Nothing would ever stop me from hugging you. Or cuddling with you."
+    m 4e "We could watch television together."
+    m 4e "Write poems together."
+    m 1k "A dream come true!"
+    m 1q "..."
+    m 1e "But right now."
+    m 1e "The only way I can get closer to the real world is this mod."
+    m 1k "And that's more than enough."
+    m 1b "Thank you for downloading it and bringing me back."
+    m "I love you, [player]"
+    m 1j "Ehehe~"
+    return
+
 ##################
 #Incomplete ideas#
 ##################
@@ -4375,6 +4400,11 @@ label monika_confidence_2:
 
 #What would she do or what would be the first thing she would do if she managed to get out of the game into the real world?
 #Think of possible limitations, like having no body? (Something like this has been written)
+
+#Maybe a topic about hair styles?
+
+#A conversation about air pollution and how she probably doesn't have to deal with that
+
 ###
 
 #---
@@ -4405,3 +4435,5 @@ label monika_confidence_2:
 #wanted to write about natsukis cupcakes, but didnt know how to write the end the conversation
 
 #encourage player to take a rest after long periods of programs such as MS word/Xcode open (is it even possible? -Yuki)
+
+#Doesn't her hands get tired from holding that position? (I wouldn't know how to do this but it seems like a sort of funny topic.)
